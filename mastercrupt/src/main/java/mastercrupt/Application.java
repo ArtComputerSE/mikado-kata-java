@@ -1,5 +1,8 @@
 package mastercrupt;
 
+import ui.ApplicationInterface;
+import ui.UI;
+
 public class Application implements ApplicationInterface {
     public void leet(String string, UI ui) {
         ui.setLeeted(Leeter.leet(string));

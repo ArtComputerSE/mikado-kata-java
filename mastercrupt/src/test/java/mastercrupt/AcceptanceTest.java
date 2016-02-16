@@ -3,6 +3,8 @@ package mastercrupt;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
+import ui.UI;
+
 public class AcceptanceTest {
     @Test
     public void testLeeting() throws Exception {

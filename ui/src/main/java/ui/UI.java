@@ -1,4 +1,4 @@
-package mastercrupt;
+package ui;
 
 public class UI {
     private ApplicationInterface application;
