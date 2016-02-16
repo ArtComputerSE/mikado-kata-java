@@ -11,6 +11,7 @@
     <modules>
         <module>ui</module>
         <module>mastercrupt</module>
+        <module>stranger</module>
     </modules>
 
     <properties>
