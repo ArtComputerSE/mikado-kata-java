@@ -1,12 +1,14 @@
 package mastercrupt;
 
-import static org.junit.Assert.assertEquals;
-import mastercrupt.UI;
+import org.junit.jupiter.api.Test;
 
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+@SuppressWarnings("WeakerAccess")
 public class AcceptanceTest {
+
     @Test
-    public void testLeeting() throws Exception {
+    public void testLeeting() {
         UI ui = new UI();
         assertEquals("Leeted: S3cr3t", ui.leetMessage("Secret"));
     }
