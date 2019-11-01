@@ -1,15 +1,9 @@
-classes
 .metadata
-
-.gradle
 .classpath
 .project
 .settings
-bin
-example3/build
+target
 *.iml
 *.eml
 *.ipr
 *.iws
-.idea/
-out
