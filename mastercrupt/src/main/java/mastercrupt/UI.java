@@ -1,5 +1,6 @@
 package mastercrupt;
 
+@SuppressWarnings("WeakerAccess")
 public class UI {
     private Application application = new Application();
     private String leeted;

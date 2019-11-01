@@ -1,5 +1,6 @@
 package mastercrupt;
 
+@SuppressWarnings("WeakerAccess")
 public class Application {
     public void leet(String string, UI ui) {
         ui.setLeeted(Leeter.leet(string));

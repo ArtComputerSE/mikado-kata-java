@@ -6,7 +6,11 @@
 
     <groupId>se.crisp.edu</groupId>
     <artifactId>mikado</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <version>1.0</version>
+    <modules>
+        <module>mastercrupt</module>
+    </modules>
 
     <properties>
         <junit.version>4.10</junit.version>
